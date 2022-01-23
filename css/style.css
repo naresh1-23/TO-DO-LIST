@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
+}
+.container{
+    width: 35%;
+    background-color: #FFBC9F  ;
+    margin:  0px 0px 0px  400px;
+    padding: 5%;
+    border-radius: 25px;
+    
+}
+.row{
+    margin: 25px;
+}
+.text_input{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+}
+.input_list button{
+    height: 50px;
+    width: 65px;
+    border-radius: 10px;
+    background-color:#ebaba7;
+    opacity: 0.6;
+    pointer-events: none;
+}
+.input_list button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.list{
+    border: #FFBC9F  solid 1px;
+    margin: 25px 100px 25px 0px;
+    border-radius: 5px;
+    background-color: #FFDB9F ;
+    padding: 15px;
+
+}
+.list:hover{
+    background-color: blanchedalmond;
+}
+.delete_btn{
+    margin-left:300px;
+}
+.trash{
+    font-size: 25px;
+}
+.NumberOfList{
+    text-align: center;
+}
+.clear{
+    margin-left: 25px;
+    width: 100px;
+    height: 50px;
+    
+    border-radius: 10px;
+    background-color:#ebaba7;
+    
+}
+.ok_btn:hover{
+    background-color: blanchedalmond;
+}
